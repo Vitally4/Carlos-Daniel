@@ -1,11 +1,15 @@
+.envelope{
+    width: 1440px;
+    margin: 0 auto;
+}
+
 .container{
-    width: 100%;
+    width: 1440px;
     height: 700px;
     background: #F5F3F0;
     margin: 0 auto;
     display: flex;
     align-items: center;
-
 }
 .box img{
     margin: 180px;
@@ -38,18 +42,110 @@
     font-size: 18px;
     margin-top: -40px;
 
+}.container2{
+    margin: 180px;
+    height: 1440px;
+
 }
-.container2{
-    margin: 165px;
-}
-.box1{
+.pequeno1{
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 2px;
     color: #9E8C6C;
-    margin: 250px 925px 640px 165px;
 }
-.box2{
+.textos2{
     color: black;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
 }
+.pequeno2{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #9E8C6C;
+    margin-top: 100px;
+}
+.textos3{
+    color: black;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+}
+.pequeno3{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #9E8C6C;
+    margin-top: 100px;
+}
+.textos4{
+    color: black;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+}
+.destaque{
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+.pequeno4{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #9E8C6C;
+    margin-top: 100px;
+}
+.pequeno4 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0px;
+    display: block;
+    color: rgba(6, 153, 166, 1);
+}
+.seta{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0;
+}
+.rodape{
+    width: 1440px;
+    height: 547px;
+    background: #F5F3F0;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.box22{
+    font-family: 'PlayfairDisplay';
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 82px;
+    letter-spacing: -1.14px;
+    padding: 80px 323px 111.18px 324px;
+}
+.box22 h3{
+    font-family: 'PlayfairDisplay';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0;
+    color: #0699A6;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: -27px;
+    padding: 8px;
+    letter-spacing: 35px;
+
+}
+
+
 
