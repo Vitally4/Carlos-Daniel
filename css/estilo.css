@@ -1,11 +1,16 @@
 :root {
-    --color-primary: ;
-    --color-secundary: #0663A6;
-    ;
-    --color-link: ;
+    --color-primary: #333333;
+    --color-secundary: #F5F5F5;
+    --color-ad: #DDDDDD;
+
+}
+
+body{
+  background-color: var(--color-primary);
+  margin: 0 auto;
 }
 header {
-    background-color: #F5F3F0;
+    background: var(--color-secundary);
     justify-content: center;
     margin: 0 auto;
     display: flex;
@@ -33,7 +38,7 @@ header {
   }
   
   .inicio h1 {
-    color: var(--color-secundary);
+    color: black;
     font-size: 126px;
     letter-spacing: -2.17px;
     line-height: 112px;
@@ -45,13 +50,13 @@ header {
     font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #9E8C6C;
+    color: black;
   }
   
   .inicio a {
-    border: 1px solid white;
-    background-color: #0699A6;
-    color: white;
+    border: 1px solid black;
+    background: var(--color-secundary);
+    color: black;
     text-decoration: none;
     text-align: center;
     padding: 18px 62px;
@@ -63,23 +68,29 @@ header {
     justify-content: center;
     width: 100%;
     height: auto;
+    background-color: var(--color-primary);
   }
   
-  .habilidades,
-  .premiacoes,
+  .habilidades{
+    color: var(--color-ad);
+  }
+  .premiacoes{
+    color: var(--color-ad);
+  }
   .caracteristicas {
     margin-bottom: 100px;
+    color: var(--color-ad);
   }
   
   .coluna-esquerda {
     margin-top: 123px;
     width: 350px;
     height: auto;
-    background-color: #fff;
+    background-color: var(--color-primary);
   }
   
   .coluna-esquerda h3 {
-    color: #9E8C6C;
+    color: white;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -101,55 +112,100 @@ header {
   }
   
   .trabalhos-recentes li {
-    color: #0699A6;
+    color: var(--color-ad);
   }
   
   .trabalhos-recentes a {
     text-decoration: none; 
-    color: #0699A6;         
+    color:   var(--color-secundary);
     font-size: 18px;
   }
   
   .trabalhos-recentes a:hover {
     text-decoration: underline; 
   }
+.trabalhos-recentes2 h3{
+  color: white;
+}
+
+.botaoimagem{
+  display: flex;
+  justify-content: space-between;
+}
+
+.div1 ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div1 a{
+  color: var(--color-secundary);
+}
+
+.div2 ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div2 a{
+  color: var(--color-secundary);
+}
+  .trabalhos-recentes2 li {
+    color: var(--color-ad);
+  }
   
+  .trabalhos-recentes2 a {
+    text-decoration: none; 
+    color:   var(--color-secundary);
+    font-size: 18px;
+  }
+  
+  .trabalhos-recentes2 a:hover {
+    text-decoration: underline; 
+  }
   .coluna-direita {
     width: 635px;
     height: auto;
     margin-top: 123px;
     margin-left: 138px;
-    background-color: #fff;
+    background-color: var(--color-primary);
   }
   
   .meu {
     margin-bottom: 72px;
     width: 635px;
     height: 326px;
+    color: white;
   }
   
   .coluna-direita p {
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
+    color: var(--color-ad);
   }
 
-  .tel{
+  .tell {
     display: block;
   }
-  .tel a{
+  .tell a{
     display: block;
     font-weight: 900;
     font-size: 36px;
-    line-height: 46px;
+    line-height: 15px;
+    color: black;
+    margin: 0 auto;
+    
   }
   .barra_destaque {
-    background-color: #0699A6;
+    background: var(--color-secundary);
     width: 76px;
     height: 10px;
     margin-top: 80px;
   }
-  
+
   .coluna-direita h2 {
     font-size: 36px;
   }
@@ -171,22 +227,24 @@ header {
     margin-top: -20px;
   }
   .buscando{
-    background-color: #0699A6;
+    background: var(--color-secundary);
     padding: 10px;
     text-align: center;
     margin-bottom: 25px;
   }
   .buscando p{
     margin: 0 auto;
+    color: black;
   }
   .detalhes_experiencia h3 {
-    color: #9E8C6C;
+    color: white;
   }
   .detalhes_experiencia h4 {
     font-weight: 400;
   }
   .formacao h2 {
     margin-top: 70px;
+    color: white;
   }
   
   .detalhes_formacao {
@@ -194,12 +252,15 @@ header {
     justify-content: space-between;
     margin-top: -20px;
   }
-  
+  .experiencia{
+    color: white;
+  }
   .detalhes_formacao h3 {
-    color: #9E8C6C;
+    color: var(--color-ad);
   }
   .detalhes_formacao h4 {
     font-weight: 400;
+    color: var(--color-ad);
   }
   ul {
     list-style: none;
@@ -207,13 +268,12 @@ header {
     margin: 0;
   }
   
-  
+
   footer {
     display: flex;
     align-content: center;
     max-width: 100%;
-    min-height: 560px;
-    background-color: #F5F3F0;
+    background: var(--color-secundary);
     margin-top: 80px;
   }
   
@@ -222,21 +282,21 @@ header {
     width: 793px;
     height: auto;
     margin: 0 auto;
-    padding-top: 158px;
-    padding-bottom: 116px;
+    padding: 100px 0px;
   }
   
   .conteudo h2 {
     font-weight: 900;
     font-size: 66px;
     line-height: 82px;
+    color: black;
   }
   
   .conteudo h3 {
     font-weight: 900;
     font-size: 36px;
     line-height: 46px;
-    color: #0699A6;
+    color: black;
   }
   
   .redes {
@@ -245,122 +305,114 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    color: white;
   }
-  
-  
-  @media screen and (max-width: 1023px) {
-  
-    .container {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      height: auto;
-    }
-  
-    .imagem_perfil {
-      margin: 40px auto;
-      padding-left: 0;
-    }
-  
-    .imagem_perfil img {
-      width: 220px;
-      height: 220px;
-    }
-  
-    .inicio {
-      width: 100%;
-      height: auto;
-      margin: 20px auto 60px;
-      text-align: center;
-      padding: 0 24px;
-      box-sizing: border-box;
-    }
-  
-    .inicio h1 {
-      font-size: 64px;
-      line-height: 72px;
-      margin-bottom: 20px;
-    }
-  
-    .inicio h3 {
-      font-size: 14px;
-    }
-  
-    .inicio a {
-      padding: 14px 30px;
-      font-size: 14px;
-    }
-  
-    section {
-      align-items: center;
-      flex-direction: column-reverse;
-      width: 100%;
-      margin: 0 auto;
-    }
-  
-    .coluna-esquerda,
-    .coluna-direita {
-      width: 100%;
-      height: auto;
-      margin: 20px 0;
-      padding: 0 30px;
-      box-sizing: border-box;
-    }
-  
-    .experiencia {
-      margin-top: 60px;
-    }
-  
-    .meu {
-      width: 100%;
-      height: auto;
-    }
-  
-    .cartao {
-      width: 100%;
-      margin-bottom: 60px;
-    }
-  
-    .coluna-direita {
-      margin-left: 0;
-    }
-  
-    .detalhes_experiencia,
-    .detalhes_formacao {
-      flex-direction: column;
-      width: 100%;
-    }
-  
-    .conteudo {
-      width: 100%;
-      padding: 60px 16px;
-    }
-  
-    .conteudo h2 {
-      font-size: 36px;
-      line-height: 44px;
-    }
-  
-    .conteudo h3 {
-      font-size: 20px;
-      line-height: 28px;
-    }
-  
-    .redes {
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: center;
-    }
+
+  .redes a{
+    padding: 40px 0px;
   }
-  
-  @media screen and (max-width: 480px) {
-    .inicio h1 {
-      font-size: 48px;
-      line-height: 56px;
-    }
-  
-    .inicio a {
-      padding: 12px 20px;
-      font-size: 13px;
-    }
+
+  @media (max-width: 1023px) {
+
+  header, section, footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .imagem_perfil {
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .imagem_perfil img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .inicio {
+    padding: 0 20px;
+  }
+
+  .inicio h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .inicio h3 {
+    font-size: 14px;
+  }
+
+  .inicio a {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .coluna-esquerda, .coluna-direita {
+    width: 100%;
+    margin: 0;
+  }
+
+  .coluna-direita {
+    margin-left: 0;
+  }
+
+  .meu {
+    width: 100%;
+    height: auto;
+  }
+
+  .cartao {
+    width: 100%;
+  }
+
+  .barra_destaque {
+    width: 40px;
+    height: 6px;
+    margin: 20px auto;
+  }
+
+  .detalhes_experiencia,
+  .detalhes_formacao {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .conteudo {
+    width: 100%;
+  }
+
+  .conteudo h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+ .conteudo h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .tell a {
+    font-size: 22px;
+    line-height: 20px;
+  }
+
+  .redes {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  ul {
+    padding: 0 20px;
+  }
+}
